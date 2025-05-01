@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .price-list.container {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .category-card {
+    border: 2px solid #000000;
+    border-radius: 2rem;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .category-card .card-header {
+    background-color: #b35eff;
+    font-weight: 600;
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .category-card .form-check-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+  
+  .total {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: right;
+  }
+  
+  .form-check-input{
+    border: .07rem solid #000000;
+  }
+
+  .logo-img {
+    max-width: 200px;   /* scales down large GIFs */
+    height: auto;
+    display: inline-block;
+    padding: 20px;
+    margin: none;
+  }
+  .logo {
+    text-align: center;
+  }
+  

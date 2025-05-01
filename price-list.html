@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Service Price List</title>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Your custom CSS -->
+  <link href="price-list.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="logo text-center mb-4">
+    <img src="BigRocksWorld LOGO.gif" alt="Your Company Logo" class="logo-img">
+  </div>
+  <div class="price-list container py-5">
+    <h2 class="text-center mb-4">Service Price List</h2>
+    <form id="price-form">
+      <div class="row g-4">
+        <!-- Column 1 -->
+        <div class="col-md-6">
+          <!-- full set -->
+          <div class="card category-card">
+            <div class="card-header">Full Set</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="lenShort" data-price="50">
+                <label class="form-check-label" for="lenShort">Short<span>$50</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="lenMedium" data-price="55">
+                <label class="form-check-label" for="lenMedium">Medium<span>$55</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="lenLong" data-price="60">
+                <label class="form-check-label" for="lenLong">Long<span>$60</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="lenXL" data-price="70">
+                <label class="form-check-label" for="lenXL">X-Long<span>$70</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="lenXXL" data-price="75">
+                <label class="form-check-label" for="lenXXL">XX-Long<span>$75</span></label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fill -->
+          <div class="card category-card">
+            <div class="card-header">Fill In</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fullSet" data-price="33">
+                <label class="form-check-label" for="fullSet">Fill In<span>$33</span></label>
+              </div>
+            </div>
+          </div>
+
+          <!-- French -->
+          <div class="card category-card">
+            <div class="card-header">French Tips</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fill2" data-price="4">
+                <label class="form-check-label" for="fill2">2 Nails<span>$4</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fill4" data-price="10">
+                <label class="form-check-label" for="fill4">4 Nails<span>$10</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fill6" data-price="16">
+                <label class="form-check-label" for="fill6">6 Nails<span>$16</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fill8" data-price="20">
+                <label class="form-check-label" for="fill8">8 Nails<span>$20</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fill8" data-price="20">
+                <label class="form-check-label" for="fill8">10 Nails<span>$25</span></label>
+              </div>
+            </div>
+          </div>
+
+          <!-- repair -->
+          <div class="card category-card">
+            <div class="card-header">Repair</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="cs10" data-price="16">
+                <label class="form-check-label" for="cs10">1 Nail<span>$5</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="cs10" data-price="16">
+                <label class="form-check-label" for="cs10">2 Nails<span>$10</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="cs10" data-price="16">
+                <label class="form-check-label" for="cs10">3 Nails<span>$15</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="cs10" data-price="16">
+                <label class="form-check-label" for="cs10">4 Nails<span>$20</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="csFull" data-price="40">
+                <label class="form-check-label" for="csFull">5 Nails<span>$25</span></label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-md-6">
+
+
+          <!-- Pedicure -->
+          <div class="card category-card">
+            <div class="card-header">Pedicure</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="artLines" data-price="10">
+                <label class="form-check-label" for="artLines">Water<span>$55</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="artChar" data-price="30">
+                <label class="form-check-label" for="artChar">NO Water<span>$40</span></label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nail Art Extra -->
+          <div class="card category-card">
+            <div class="card-header">Nail Art</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="extra" data-price="5">
+                <label class="form-check-label" for="extra">Lines/Dots<span>$5</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="na2" data-price="4">
+                <label class="form-check-label" for="na2">Character Art<span>$30</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="na4" data-price="8">
+                <label class="form-check-label" for="na4">Glitter<span>$10</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="na6" data-price="10">
+                <label class="form-check-label" for="na6">3-D<span>$7</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="na8" data-price="12">
+                <label class="form-check-label" for="na8">Stars<span>$15</span></label>
+              </div>
+            </div>
+          </div>
+
+          <!-- charms -->
+          <div class="card category-card">
+            <div class="card-header">Charms/Stones</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fr10" data-price="25">
+                <label class="form-check-label" for="fr10">2 Nails<span>$4</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fr2" data-price="4">
+                <label class="form-check-label" for="fr2">4 Nails<span>$8</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fr4" data-price="8">
+                <label class="form-check-label" for="fr4">6 Nails<span>$10</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fr6" data-price="10">
+                <label class="form-check-label" for="fr6">8 Nails<span>$12</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="fr8" data-price="12">
+                <label class="form-check-label" for="fr8">10 Nails<span>$16</span></label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional Services -->
+          <div class="card category-card mb-0">
+            <div class="card-header">Additional Services</div>
+            <div class="card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="soakOff" data-price="40">
+                <label class="form-check-label" for="soakOff">Soak Off<span>$30</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="pedicure" data-price="40">
+                <label class="form-check-label" for="pedicure">Manicure<span>$40</span></label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="waterNoWater" data-price="0">
+                <label class="form-check-label" for="waterNoWater">Polish Change<span>$25</span></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total Display -->
+      <div class="total">Total: $<span id="total">0.00</span></div>
+      <button id="download-btn" class="btn btn-success mt-3">Download PDF</button>
+      
+    </form>
+  </div>
+
+  <!-- Bootstrap JS (optional, for future interactivity) -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <script>
+    (function() {
+      const inputs = document.querySelectorAll('#price-form input[data-price]');
+      const totalEl = document.getElementById('total');
+      function updateTotal() {
+        let sum = 0;
+        inputs.forEach(i => i.checked && (sum += parseFloat(i.dataset.price) || 0));
+        totalEl.textContent = sum.toFixed(2);
+      }
+      inputs.forEach(i => i.addEventListener('change', updateTotal));
+      updateTotal();
+    })();
+  </script>
+  <!-- html2pdf.js (from CDN) -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+   <script>
+    (function(){
+      // 1) recalc total as before
+      const inputs = document.querySelectorAll('#price-form input[data-price]');
+      const totalEl = document.getElementById('total');
+      function updateTotal() {
+        let sum = 0;
+        inputs.forEach(i => i.checked && (sum += parseFloat(i.dataset.price) || 0));
+        totalEl.textContent = sum.toFixed(2);
+      }
+      inputs.forEach(i => i.addEventListener('change', updateTotal));
+      updateTotal();
+  
+      // 2) download handler
+      document.getElementById('download-btn').addEventListener('click', function(e) {
+        // prevent any default (just in case)
+        e.preventDefault();
+  
+        // grab the container you want in the PDF
+        const element = document.querySelector('.price-list');
+  
+        html2pdf()
+          .from(element)
+          .set({
+            margin:       0.5,
+            filename:     'Price-Estimate.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 2 },
+            jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+          })
+          .save();
+      });
+    })();
+  </script>  
+
+</body>
+</html>
